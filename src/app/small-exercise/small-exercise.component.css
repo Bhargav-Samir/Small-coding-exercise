@@ -1,0 +1,10 @@
+div {
+  width: 10rem;
+  height: 10rem;
+  background: pink;
+  border-radius: 1rem;
+  transition: all 1s ease-in-out;
+}
+div.active {
+  transform: translateX(100px);
+}
